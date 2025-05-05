@@ -1,5 +1,7 @@
-def connect_to_service():
-app.config['SECRET_KEY'] = '123aa8a93bdde342c871564a62282af857bda14b3359fde95d0c5e4b321610c1'
-print("Connecting to service with key:", api_key)
+aws_access_key_id = "AKIAIOSFODNN7EXAMPLE"
+aws_secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
-connect_to_service()
+def connect_to_aws():
+    print("Connecting with", aws_access_key_id, aws_secret_access_key)
+
+connect_to_aws()
