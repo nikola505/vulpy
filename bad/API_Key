@@ -1,0 +1,5 @@
+def connect_to_service():
+    api_key = "sk_test_51LkGj6F3f9FakeKey1234567890"  # This is an API key exposed in code
+    print("Connecting to service with key:", api_key)
+
+connect_to_service()
