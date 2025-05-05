@@ -1,5 +1,5 @@
 def connect_to_service():
-    api_key = "sk_test_51LkGj6F3f9FakeKey1234567890"  # This is an API key exposed in code
+    app.config['SECRET_KEY'] = '123aa8a93bdde342c871564a62282af857bda14b3359fde95d0c5e4b321610c1'
     print("Connecting to service with key:", api_key)
 
 connect_to_service()
